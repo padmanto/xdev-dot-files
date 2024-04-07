@@ -137,7 +137,7 @@ return {
 				-- configure lua server (with special settings)
 				lspconfig["lua_ls"].setup({
 					capabilities = capabilities,
-					root_dir = require("nvim_lsp").util.root_pattern("init.lua"),
+					root_dir = lspconfig.util.root_pattern("init.lua"),
 					settings = {
 						Lua = {
 							-- make the language server recognize "vim" global

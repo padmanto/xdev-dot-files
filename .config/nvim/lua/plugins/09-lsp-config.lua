@@ -77,6 +77,9 @@ return {
 			local hl = "DiagnosticSign" .. type
 			vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 		end
+		lspconfig["dartls"].setup({
+			capabilities = capabilities,
+		})
 		lspconfig["lua_ls"].setup({
 			capabilities = capabilities,
 		})

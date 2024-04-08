@@ -33,6 +33,8 @@ return {
 						"emmet_ls",
 						"pyright",
 						"intelephense",
+						"gopls",
+						"lua_ls",
 					},
 				})
 				mason_tool_installer.setup({

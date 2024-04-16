@@ -6,7 +6,6 @@ return {
 			{ "<leader>sm", "<cmd>MaximizerToggle<CR>", desc = "Maximize/minimize a split" },
 		},
 	},
-	"christoomey/vim-tmux-navigator",
 	{
 		"stevearc/dressing.nvim",
 		event = "VeryLazy",
